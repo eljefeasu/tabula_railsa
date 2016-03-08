@@ -7,6 +7,7 @@
   <% if Rails.env.development? %>
     Do you like Cold Hard Cash? <%= params[:cash] ? "Yes!" : "No" %><br>
   <% end %>
+  <% Question.create(params[:name], params[:chocolate], params[:rainbows], params[:puppies], params[:cash]) %>
 <% else %>
   <%= form_tag home_form_path do %>
     <div>
