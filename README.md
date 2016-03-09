@@ -1,3 +1,3 @@
-### Challenge 03/08/2016 Answers
+### Challenge 03/09/2016 Answers
 
-* No time for this
+* Yes, I think strong params are good
