@@ -1,0 +1,26 @@
+<h1>Listing Surveys</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Chocolate</th>
+      <th>Rainbows</th>
+      <th>Puppies</th>
+      <th>Cash</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @questions.each do |q| %>
+      <tr>
+        <td><%= q.name %></td>
+        <td><%= q.chocolate %></td>
+        <td><%= q.rainbows %></td>
+        <td><%= q.puppies %></td>
+        <td><%= q.cash %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

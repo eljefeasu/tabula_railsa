@@ -1,3 +1,3 @@
-### Challenge 03/09/2016 Answers
+### Challenge 03/10/2016 Answers
 
-* Yes, I think strong params are good
+* I would have preferred to scaffold :)
